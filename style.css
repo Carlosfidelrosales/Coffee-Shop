@@ -1,0 +1,300 @@
+html, body, div {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FFFFCC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+content{
+    height: 480px;
+    width: 750px;
+    border-style: solid;
+    padding: 0px;
+}
+
+#hmestyle{
+    font-size:23px;
+
+}
+
+#store{
+    background-color: #b15050;
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    height: 80px;
+    margin: 0px;
+}
+
+#navigationMenu{
+    background-color: #9c4e3a;
+    position: relative;
+    padding-left: 20px;
+    left: 0px;
+    width: 130px;
+    height: 483px;
+    white-space: pre-line;
+    
+    
+}
+
+#rightcontent{
+    background-color: #f0cb9b;
+    position: absolute;
+    width: 1180px;
+    height: 483px;
+    padding: 0px 10px 0px 10px;
+    left: 158px;
+    bottom: 90px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+#rightcontent h2{
+    margin-top: 0px;
+    
+}
+
+#menuBar{
+    text-align: left;
+}
+
+nav a{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 58px;
+    text-decoration: none;
+}
+nav a{
+    color: #ffffff;
+    position: sticky;
+    padding: 15px 0;
+    margin-bottom: 0px;
+}
+nav a:hover{
+    color: #ff9999 ;
+}
+nav a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #07c4dd;
+    transition: .2s;
+    bottom: 0;
+}
+nav a:hover:after{
+    width: 100%;
+}
+
+#PicCoffee{
+    position: absolute;
+    right: 150px;
+    height: 483px;
+    width: 400px;
+    bottom: 2px;
+    border-radius: 20px;
+}
+
+#footer{
+    background-color: #b15050;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    height: 66px;
+    text-align: center;
+    font-style: italic;
+    width: 1350px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.card{
+    width: min-content;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .04);
+    transition: .4s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .imagecard {
+    width: 90px;
+    height: 90px;
+    padding: 0 20px;
+    text-align: center;
+    background: #f4f7f8;
+    border-radius: 12px;
+}
+
+.card .imagecard img{
+    width: 100%;
+    transition: .4s ease;
+}
+
+.card .contentimage button{
+    cursor: pointer;
+    color: #000000;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 13px;
+    background: #c8a780;
+}
+
+.contentimage{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    justify-content: center
+}
+
+
+#fntmusic{
+    font-size: 15px;
+}
+
+
+  
+.border {
+    box-shadow: 0 3px 8px 0 rgba(255, 254, 254, 0.2);
+    margin: 8px;
+}
+
+
+.info {
+    padding: 0 13px;
+    font-size: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+  
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+.req{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.job1 {
+    left: 70px;
+    top: 2650px;
+    position: absolute;
+    width: 20%;
+    background-color: #ffa7a7;
+    transform: scale(1.1, .85);
+    margin-top: 30px;
+
+}
+.job2 {
+    left: 340px;
+    top: 2650px;
+    position: absolute;
+    width: 20%;
+    background-color: #ffa7a7;
+    transform: scale(1.1, .85);
+    margin-top: 30px;
+}
+
+.job3 {
+    left: 610px;
+    top: 2650px;
+    position: absolute;
+    width: 20%;
+    background-color: #ffa7a7;
+    transform: scale(1.1, .85);
+    margin-top: 30px;
+}
+
+.job4 {
+    left: 880px;
+    top: 2650px;
+    position: absolute;
+    width: 20%;
+    background-color: #ffa7a7;
+    transform: scale(1.1, .85);
+    margin-top: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #b15050; 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #c8a780; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
